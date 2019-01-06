@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example01-led", "example01-led\example01-led.vcxproj", "{41581EF8-A7B9-4D13-A923-1DAD6A3D3504}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8785E0E5-1E75-44C1-9F76-6A9E11FDB497} = {8785E0E5-1E75-44C1-9F76-6A9E11FDB497}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "raspberrypi", "raspberrypi\raspberrypi.vcxproj", "{8785E0E5-1E75-44C1-9F76-6A9E11FDB497}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example02-button", "example02-button\example02-button.vcxproj", "{20420F5A-9547-47DB-8A03-262CAEB15343}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example03-hcsr04", "example03-hcsr04\example03-hcsr04.vcxproj", "{41F1B4A2-9E86-47F3-998C-EB71B62AEAA2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example04-dht11", "example04-dht11\example04-dht11.vcxproj", "{17FB14C1-A7B6-4BCE-8B8D-81A628C60FDC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example05-bmp180", "example05-bmp180\example05-bmp180.vcxproj", "{424C6ECA-0C29-499D-8765-FC7B5B68AC4C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example06-hd44780", "example06-hd44780\example06-hd44780.vcxproj", "{BDDAE7D5-A407-4486-B3A2-B50D29BD38B0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example07-hd44780-i2c", "example07-hd44780-i2c\example07-hd44780-i2c.vcxproj", "{C3646FE0-AAEA-435A-B42B-1CAAF97A4020}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example08-433mhz-sender", "example08-433mhz-sender\example08-433mhz-sender.vcxproj", "{C6CD1757-6046-4CB7-A1F4-20E011323315}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example09-433mhz-receiver", "example09-433mhz-receiver\example09-433mhz-receiver.vcxproj", "{94349802-CBE4-4ACB-A0F0-B305FEEEC1B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Release|ARM = Release|ARM
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41581EF8-A7B9-4D13-A923-1DAD6A3D3504}.Debug|ARM.ActiveCfg = Debug|ARM
+		{41581EF8-A7B9-4D13-A923-1DAD6A3D3504}.Debug|ARM.Build.0 = Debug|ARM
+		{41581EF8-A7B9-4D13-A923-1DAD6A3D3504}.Release|ARM.ActiveCfg = Release|ARM
+		{41581EF8-A7B9-4D13-A923-1DAD6A3D3504}.Release|ARM.Build.0 = Release|ARM
+		{8785E0E5-1E75-44C1-9F76-6A9E11FDB497}.Debug|ARM.ActiveCfg = Debug|ARM
+		{8785E0E5-1E75-44C1-9F76-6A9E11FDB497}.Debug|ARM.Build.0 = Debug|ARM
+		{8785E0E5-1E75-44C1-9F76-6A9E11FDB497}.Release|ARM.ActiveCfg = Release|ARM
+		{8785E0E5-1E75-44C1-9F76-6A9E11FDB497}.Release|ARM.Build.0 = Release|ARM
+		{20420F5A-9547-47DB-8A03-262CAEB15343}.Debug|ARM.ActiveCfg = Debug|ARM
+		{20420F5A-9547-47DB-8A03-262CAEB15343}.Debug|ARM.Build.0 = Debug|ARM
+		{20420F5A-9547-47DB-8A03-262CAEB15343}.Release|ARM.ActiveCfg = Release|ARM
+		{20420F5A-9547-47DB-8A03-262CAEB15343}.Release|ARM.Build.0 = Release|ARM
+		{41F1B4A2-9E86-47F3-998C-EB71B62AEAA2}.Debug|ARM.ActiveCfg = Debug|ARM
+		{41F1B4A2-9E86-47F3-998C-EB71B62AEAA2}.Debug|ARM.Build.0 = Debug|ARM
+		{41F1B4A2-9E86-47F3-998C-EB71B62AEAA2}.Release|ARM.ActiveCfg = Release|ARM
+		{41F1B4A2-9E86-47F3-998C-EB71B62AEAA2}.Release|ARM.Build.0 = Release|ARM
+		{17FB14C1-A7B6-4BCE-8B8D-81A628C60FDC}.Debug|ARM.ActiveCfg = Debug|ARM
+		{17FB14C1-A7B6-4BCE-8B8D-81A628C60FDC}.Debug|ARM.Build.0 = Debug|ARM
+		{17FB14C1-A7B6-4BCE-8B8D-81A628C60FDC}.Release|ARM.ActiveCfg = Release|ARM
+		{17FB14C1-A7B6-4BCE-8B8D-81A628C60FDC}.Release|ARM.Build.0 = Release|ARM
+		{424C6ECA-0C29-499D-8765-FC7B5B68AC4C}.Debug|ARM.ActiveCfg = Debug|ARM
+		{424C6ECA-0C29-499D-8765-FC7B5B68AC4C}.Debug|ARM.Build.0 = Debug|ARM
+		{424C6ECA-0C29-499D-8765-FC7B5B68AC4C}.Release|ARM.ActiveCfg = Release|ARM
+		{424C6ECA-0C29-499D-8765-FC7B5B68AC4C}.Release|ARM.Build.0 = Release|ARM
+		{BDDAE7D5-A407-4486-B3A2-B50D29BD38B0}.Debug|ARM.ActiveCfg = Debug|ARM
+		{BDDAE7D5-A407-4486-B3A2-B50D29BD38B0}.Debug|ARM.Build.0 = Debug|ARM
+		{BDDAE7D5-A407-4486-B3A2-B50D29BD38B0}.Release|ARM.ActiveCfg = Release|ARM
+		{BDDAE7D5-A407-4486-B3A2-B50D29BD38B0}.Release|ARM.Build.0 = Release|ARM
+		{C3646FE0-AAEA-435A-B42B-1CAAF97A4020}.Debug|ARM.ActiveCfg = Debug|ARM
+		{C3646FE0-AAEA-435A-B42B-1CAAF97A4020}.Debug|ARM.Build.0 = Debug|ARM
+		{C3646FE0-AAEA-435A-B42B-1CAAF97A4020}.Release|ARM.ActiveCfg = Release|ARM
+		{C3646FE0-AAEA-435A-B42B-1CAAF97A4020}.Release|ARM.Build.0 = Release|ARM
+		{C6CD1757-6046-4CB7-A1F4-20E011323315}.Debug|ARM.ActiveCfg = Debug|ARM
+		{C6CD1757-6046-4CB7-A1F4-20E011323315}.Debug|ARM.Build.0 = Debug|ARM
+		{C6CD1757-6046-4CB7-A1F4-20E011323315}.Release|ARM.ActiveCfg = Release|ARM
+		{C6CD1757-6046-4CB7-A1F4-20E011323315}.Release|ARM.Build.0 = Release|ARM
+		{94349802-CBE4-4ACB-A0F0-B305FEEEC1B9}.Debug|ARM.ActiveCfg = Debug|ARM
+		{94349802-CBE4-4ACB-A0F0-B305FEEEC1B9}.Debug|ARM.Build.0 = Debug|ARM
+		{94349802-CBE4-4ACB-A0F0-B305FEEEC1B9}.Release|ARM.ActiveCfg = Release|ARM
+		{94349802-CBE4-4ACB-A0F0-B305FEEEC1B9}.Release|ARM.Build.0 = Release|ARM
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50621678-B476-4090-A493-7F0D527C8796}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="modules\CLed.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="CGpio.cpp" />
+    <ClCompile Include="CPhysicalMemory.cpp" />
+    <ClCompile Include="CRaspberryPi.cpp" />
+    <ClCompile Include="CSystemTimer.cpp" />
+    <ClCompile Include="CMemoryMapper.cpp" />
+    <ClCompile Include="modules\CButton.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\CHcsr04.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\CDht11.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="CBsc.cpp" />
+    <ClCompile Include="modules\CBmp180.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\CHd44780.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\CHd44780i2c.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\C433MHz.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\C433MHzSender.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\C433MHzReceiver.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="modules">
+      <UniqueIdentifier>{801b89fa-3ec8-40bd-bd15-92fa24fa74a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="modules\CLed.hpp">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="CGpio.hpp" />
+    <ClInclude Include="CPhysicalMemory.hpp" />
+    <ClInclude Include="CRaspberryPi.hpp" />
+    <ClInclude Include="CSystemTimer.hpp" />
+    <ClInclude Include="CMemoryMapper.hpp" />
+    <ClInclude Include="modules\CButton.hpp">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\CHcsr04.hpp">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\CDht11.hpp">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="CBsc.hpp" />
+    <ClInclude Include="modules\CBmp180.hpp">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\CHd44780.hpp">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\CHd44780i2c.hpp">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\C433MHz.hpp">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\C433MHzSender.hpp">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\C433MHzReceiver.hpp">
+      <Filter>modules</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
